@@ -14,9 +14,7 @@ dict_ = dict()
 for i in range(0,(len(grades))):
     sum_ = 0
     for n in range (0,(len(grades[i]))):
-        print(n)
         sum_ = sum_ + grades[i][n]
-    print(sum_)
     aver.append(sum_ / (len(grades[i])))
     dict_[list_sort[i]] = aver[i]
 print(dict_)
