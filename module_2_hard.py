@@ -3,10 +3,7 @@ posled = [] #list returning encripted number
 j = 0 # j is a counter of cases when the  number is dividable for smaller number
 for i in range(1, number):
     x_ = number - i
-    # print(x_)
     y_ = number - x_
-    # print(y_)
-
     if y_ >= x_: # check if a number is
         break
     elif number % (i + 2) == 0: # check if a number is dividable for smaller numbers
