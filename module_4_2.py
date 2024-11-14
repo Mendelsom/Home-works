@@ -4,4 +4,4 @@ def test_function():
     inner_function()
 
 # вызов inner_function() вне test_function - ошибка, имя не определено.
-inner_function()
+test_function()
