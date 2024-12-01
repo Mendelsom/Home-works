@@ -9,7 +9,7 @@ class Animal:
     def __init__(self, speed, _cords=[0, 0, 0]):
         self.speed = speed
         self._cords = _cords
-        # super().__init__()
+ 
 
     def move(self, dx, dy, dz):
         self.dx = dx
