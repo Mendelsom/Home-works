@@ -76,8 +76,7 @@ class UrTube:
             else:
                 print(n.title)
                 break
-
-                break
+                
 
     def watch_video(self, title):
         flag_ = 0
